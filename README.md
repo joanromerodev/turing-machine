@@ -4,7 +4,7 @@ This project is a Turing Machine simulator built with React. It visualizes the s
 
 ## Description
 
-The Turing Machine Simulator allows users to visualize how a Turing Machine processes binary data according to configurable rules. It includes key components to display and modify the tape and program states, alongside explanations of the primary concepts.
+The Turing Machine simulator allows users to visualize how a Turing Machine processes binary data according to configurable rules. It includes key components to display and modify the tape and program states, alongside explanations of the primary concepts.
 
 ## Technologies
 
@@ -83,8 +83,8 @@ Navigate to the app's URL provided by Vite.
 1. **Clone Repository**:
 
 ```bash
-git clone <repo-url>
-cd turing-machine-simulator
+git clone https://github.com/joanromerodev/turingmachine
+cd turing-machine
 ```
 
 2. **Install Dependencies**:
