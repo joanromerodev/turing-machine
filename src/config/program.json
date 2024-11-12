@@ -1,0 +1,89 @@
+{
+  "states": [
+    {
+      "name": "A",
+      "rules": [
+        {
+          "key": "empty",
+          "value": "moveRight",
+          "nextState": "B"
+        },
+        {
+          "key": "0",
+          "value": "moveRight",
+          "nextState": "A"
+        },
+        {
+          "key": "1",
+          "value": "moveRight",
+          "nextState": "A"
+        }
+      ]
+    },
+    {
+      "name": "B",
+      "rules": [
+        {
+          "key": "empty",
+          "value": "stop",
+          "nextState": null
+        },
+        {
+          "key": "0",
+          "value": "moveRight",
+          "nextState": "A"
+        },
+        {
+          "key": "1",
+          "value": "moveRight",
+          "nextState": "A"
+        }
+      ]
+    }
+  ],
+  "statesConfig": {
+    "display": [
+      {
+        "key": "moveRight",
+        "text": ["Move to the right", "Change to"]
+      },
+      {
+        "key": "moveLeft",
+        "text": ["Move to the Left", "Change to"]
+      },
+      {
+        "key": "stop",
+        "text": ["End"]
+      }
+    ]
+  },
+  "translation": [
+    { "binary": "00001", "translated": "A" },
+    { "binary": "00010", "translated": "B" },
+    { "binary": "00011", "translated": "C" },
+    { "binary": "00100", "translated": "D" },
+    { "binary": "00101", "translated": "E" },
+    { "binary": "00110", "translated": "F" },
+    { "binary": "00111", "translated": "G" },
+    { "binary": "01000", "translated": "H" },
+    { "binary": "01001", "translated": "I" },
+    { "binary": "01010", "translated": "J" },
+    { "binary": "01011", "translated": "K" },
+    { "binary": "01100", "translated": "L" },
+    { "binary": "01101", "translated": "M" },
+    { "binary": "01110", "translated": "N" },
+    { "binary": "01111", "translated": "Ñ" },
+    { "binary": "10000", "translated": "O" },
+    { "binary": "10001", "translated": "P" },
+    { "binary": "10010", "translated": "Q" },
+    { "binary": "10011", "translated": "R" },
+    { "binary": "10100", "translated": "S" },
+    { "binary": "10101", "translated": "T" },
+    { "binary": "10110", "translated": "U" },
+    { "binary": "10111", "translated": "V" },
+    { "binary": "11000", "translated": "W" },
+    { "binary": "11001", "translated": "X" },
+    { "binary": "11010", "translated": "Y" },
+    { "binary": "11011", "translated": "Z" }
+  ]
+}
