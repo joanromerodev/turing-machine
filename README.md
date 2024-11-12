@@ -105,4 +105,4 @@ npm run dev
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/joanromerodev/turingmachine/blob/main/LICENSE)
